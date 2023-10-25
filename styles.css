@@ -1,0 +1,22 @@
+body {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    color: #0f0e0e;
+    background-image: url(forest2.jpg);
+    background-size: cover;
+}
+
+/* Layout Styles */
+header {
+    background-color: #70b2e7;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Component Styles */
+.button {
+    background-color: #26cb60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
