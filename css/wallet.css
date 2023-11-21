@@ -72,6 +72,128 @@ body{
     color: #fff;
     transition: ease-in all 0.5s;
   }
-  
+   body {
+            background-color: #f8f9fa;
+            padding-top: 50px;
+        }
+
+        .container {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #checkMoneyBtn {
+            background-color: #6c757d;
+        }
+
+        #checkMoneyBtn:hover {
+            background-color: #495057;
+        }
   
   /** end wallet **/
+  body {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #495057;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#checkMoneyBtn {
+    background-color: #6c757d;
+    margin: 1%;
+}
+
+#checkMoneyBtn:hover {
+    background-color: #495057;
+}
+.navigation {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.home-button img {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 5px; /* Add some space between the icon and text */
+}
