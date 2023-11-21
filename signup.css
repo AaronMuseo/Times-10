@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    color: #495057;
+    font-weight: bold;
+  }
+
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  /* signup.css */
+
+.navigation {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .home-button img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 5px; /* Add some space between the icon and text */
+  }

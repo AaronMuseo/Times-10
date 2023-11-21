@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'connect.php';
 
 function login($connect, $email, $password) {
@@ -29,38 +29,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Attempt login without hashing
     $loggedInEmail = login($connect, $email, $password);
     if ($loggedInEmail) {
-       
         header("Location: index.html");
         exit;
     } else {
         echo "Invalid email or password. Please try again.";
     }
 }
+
+// Move the following outside of the form submission block
+if ($success) {
+    echo "<div style='Color: green; text-align: center;'>Signup successful!!</div>";
+}
+
+if ($unsuccess) {
+    echo "<div style='Color: red; text-align: center;'>Email already exists!!</div>";
+}
 ?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
-
-    <title>Login</title>
-</head>
-<body>
-    <h1>Login</h1>
-    <form method="post">
-        <div class="mb-3">
-            <label for="Email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
-        </div>
-        <div class="mb-3">
-            <label for="Password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="Password">
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-    <div>Don't have an account? <a href="signup.php">Sign Up</a></div>
-</body>
-</html>
